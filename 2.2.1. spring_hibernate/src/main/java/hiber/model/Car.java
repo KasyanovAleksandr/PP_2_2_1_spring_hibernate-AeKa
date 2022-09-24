@@ -8,9 +8,9 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long carId;
-    @Column(model = "model")
+    @Column
     private String model;
-    @Column(series = "series")
+    @Column
     int series;
 
     public Car() {}
