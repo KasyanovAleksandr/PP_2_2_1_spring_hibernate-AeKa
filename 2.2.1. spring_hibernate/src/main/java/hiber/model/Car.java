@@ -46,9 +46,6 @@ public class Car {
 
     @Override
     public String toString() {
-        if(this == null) {
-            return "The car was not found in the database.";
-        }
         return "Car{" +
                 "model='" + model + '\'' +
                 ", series=" + series +
